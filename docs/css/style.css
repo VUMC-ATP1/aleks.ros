@@ -4,7 +4,7 @@
 }
 
 div {
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 #header {
@@ -24,7 +24,7 @@ div {
 }
 
 .left-side {
-    height: 1000%;
+    height: 1000;
     width: 45%;
     background-color: aquamarine;
     float: left;
@@ -32,7 +32,7 @@ div {
 }
 
 .right-side {
-    height: 1000%;
+    height: 1000;
     width: 45px;
     background-color: aquamarine;
     float: left;
@@ -49,7 +49,7 @@ div {
 
 p,
 li {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald';
     ;
 }
 
