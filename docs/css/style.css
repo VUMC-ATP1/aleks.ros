@@ -20,11 +20,10 @@ div {
     width: 100%;
     background-color: #5a87a7;
     position: relative;
-    clear: both;
 }
 
 .left-side {
-    height: 1000;
+    height: 1000px;
     width: 45px;
     background-color: rgb(94, 128, 116);
     float: left;
@@ -32,10 +31,10 @@ div {
 }
 
 .right-side {
-    height: 1000;
+    height: 1000px;
     width: 45px;
     background-color: rgb(94, 128, 116);
-    float: left;
+    float: right;
     position: inherit;
 }
 
@@ -45,17 +44,24 @@ div {
     margin-left: 60px;
     width: 75%;
     height: 1000px;
+    font-size: medium;
+    font-style: italic;
 }
 
 p,
 li {
-    font-family: 'Oswald';
-    ;
+    font-family: 'Oswald', sans-serif;
+}
+
+li {
+    font-style: italic;
+    font-weight: bold;
 }
 
 .paragraphStyle {
     font-size: 25px;
     font-style: bold;
+    background-color: lightslategrey;
 }
 
 #copyright {
