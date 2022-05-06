@@ -25,7 +25,7 @@ div {
 .left-side {
     height: 1000px;
     width: 45px;
-    background-color: rgb(94, 128, 116);
+    background-color: rgb(115, 124, 121);
     float: left;
     position: fixed;
 }
@@ -33,9 +33,9 @@ div {
 .right-side {
     height: 1000px;
     width: 45px;
-    background-color: rgb(94, 128, 116);
+    background-color: rgb(115, 124, 121);
     float: right;
-    position: inherit;
+    position: fixed;
 }
 
 .content {
