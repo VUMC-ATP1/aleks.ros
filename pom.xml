@@ -4,12 +4,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+<<<<<<< HEAD
     <groupId>org.example</groupId>
     <artifactId>firstjavacode</artifactId>
 =======
     <groupId>la.lv</groupId>
     <artifactId>qa_automation_ar</artifactId>
 >>>>>>> ccc25d5 (HW2)
+=======
+    <groupId>la.lv</groupId>
+    <artifactId>qa_automation_ar</artifactId>
+>>>>>>> 06da001 (Add new files HW9)
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -17,6 +22,8 @@
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
 =======
+=======
+>>>>>>> 06da001 (Add new files HW9)
     <dependencies>
         <dependency>
             <groupId>org.testng</groupId>
@@ -51,7 +58,27 @@
             <version>0.0.9</version>
         </dependency>
 
+
     </dependencies>
 >>>>>>> ccc25d5 (HW2)
+=======
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>7.4.1</version>
+        </dependency>
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-testng</artifactId>
+            <version>7.4.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.assertj</groupId>
+            <artifactId>assertj-core</artifactId>
+            <version>3.23.1</version>
+        </dependency>
+
+    </dependencies>
+>>>>>>> 06da001 (Add new files HW9)
 
 </project>
