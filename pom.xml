@@ -4,38 +4,35 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-<<<<<<< HEAD
-    <groupId>org.example</groupId>
-    <artifactId>firstjavacode</artifactId>
-=======
-    <groupId>la.lv</groupId>
+    <groupId>lu.lv</groupId>
     <artifactId>qa_automation_ar</artifactId>
->>>>>>> ccc25d5 (HW2)
-=======
-    <groupId>la.lv</groupId>
-    <artifactId>qa_automation_ar</artifactId>
->>>>>>> 06da001 (Add new files HW9)
     <version>1.0-SNAPSHOT</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
-=======
-=======
->>>>>>> 06da001 (Add new files HW9)
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0-M7</version>
+                <configuration>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>src/test/resources/testng/testng.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
     <dependencies>
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>7.6.0</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.18.24</version>
-            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
@@ -53,15 +50,16 @@
             <version>1.7.5</version>
         </dependency>
         <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.24</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
             <groupId>com.github.lalyos</groupId>
             <artifactId>jfiglet</artifactId>
             <version>0.0.9</version>
         </dependency>
-
-
-    </dependencies>
->>>>>>> ccc25d5 (HW2)
-=======
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-java</artifactId>
@@ -77,8 +75,5 @@
             <artifactId>assertj-core</artifactId>
             <version>3.23.1</version>
         </dependency>
-
     </dependencies>
->>>>>>> 06da001 (Add new files HW9)
-
 </project>
