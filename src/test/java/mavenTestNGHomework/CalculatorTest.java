@@ -36,7 +36,6 @@ public class CalculatorTest {
         Calculator calculator = new Calculator();
         Assert.assertEquals(calculator.multiply(7, 10), 70.00);
     }
-
 }
 
 
