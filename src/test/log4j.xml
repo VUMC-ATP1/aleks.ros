@@ -1,4 +1,4 @@
-<log4j:configuration debug="false">
+<log4j:configuration debug="false" xmlns:log4j="">
     <!--Console appender -->
     <appender name="stdout" class="org.apache.log4j.ConsoleAppender">
         <layout class="org.apache.log4j.PatternLayout">
