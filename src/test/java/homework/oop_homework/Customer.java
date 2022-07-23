@@ -32,4 +32,3 @@ public class Customer {
         this.memberType = memberType;
     }
 }
-
