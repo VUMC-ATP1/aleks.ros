@@ -1,3 +1,6 @@
+package mavenTestNGHomework;
+
+import mavenTestNGHomework.Calculator;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
